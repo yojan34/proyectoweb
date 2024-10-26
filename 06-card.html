@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="06-card.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="caja-login">
+            <h1>Iniciar Sesión</h1>
+            <form action="paginaprinciapl.html" method="get">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+
+                <button type="submit">Iniciar sesión</button>
+            </form>
+            <hr>
+            <div class="crear-cuenta">
+                <p>¿No tienes cuenta?</p>
+                <form action="login.html" method="get">
+                    <button type="submit">Crear cuenta</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="facebook.png" alt="Facebook" class="icono-red">
+            </a>
+            <a href="https://x.com/" target="_blank">
+                <img src="x.png" alt="Twitter" class="icono-red">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="insta.jpg" alt="Instagram" class="icono-red">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

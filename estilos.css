@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #1b1b2f;
+    color: #fff;
+}
+
+.barra-lateral {
+    width: 250px;
+    background-color: #24243e;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barra-lateral h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #e0e0e0;
+}
+
+.barra-lateral nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.barra-lateral a {
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #bbb;
+    background-color: #333;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contenido-principal {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.seccion-juegos, .seccion-amigos, .seccion-ajustes {
+    display: grid;
+    gap: 20px;
+}
+
+.seccion-juegos {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.seccion-amigos {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.juego, .amigo {
+    background-color: #2b2b4f;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.juego img, .amigo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.juego h3, .amigo h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.juego button, .amigo button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.seccion-ajustes label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.seccion-ajustes input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.seccion-ajustes button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

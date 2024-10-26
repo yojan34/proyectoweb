@@ -1,0 +1,91 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-color: rgb(168, 168, 168);
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #330b44;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* Logo */
+.superior .logo {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    color: #ccc;
+}
+
+td {
+    padding: 10px 0;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #330b44;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.icono-red {
+    width: 40px;
+    height: 40px;
+}
